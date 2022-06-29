@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "test"
+
+version = "0.1.0"
+description = ""
+authors = ["Dion Boles <dion.boles@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+black = "^22.6.0"
+bandit = "^1.7.4"
+safety = "^2.0.0"
+numpy = "1.22.0"
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
